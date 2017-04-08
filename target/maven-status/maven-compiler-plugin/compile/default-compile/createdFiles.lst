@@ -1,0 +1,10 @@
+MailRobot.class
+model/mail/Mail.class
+smtp/SmtpClient.class
+model/Prank.class
+config/ConfigurationManager.class
+model/mail/Group.class
+model/mail/Person.class
+model/PrankGenerator.class
+smtp/ISmtpClient.class
+model/ErrorConfigPropertiesException.class
