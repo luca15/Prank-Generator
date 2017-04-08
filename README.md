@@ -1,6 +1,7 @@
 # Prank Generator
 
 This project is about sending pranks to a group of email addresses. We will use a mail robot that creates pranks and send it.
+This project was made during a laboratory of a SMTP protocol course at the HEIG-VD school in Switzerland.
 
 ## Getting Started
 
@@ -33,8 +34,7 @@ If you runned the MailRobot.java, then you can check your mock mock server inter
 Then you will see there are three pranks received. That is because we specify in the config.properties file that we want 3 groups of four victims to send different pranks by choosing it randomly.
 
 ## Authors
-Luca Sivillica
-Dany Tchente Simo
+Luca Sivillica & Dany Tchente Simo
 
 ## Notes
 If you want to change the config.properties file by adding somme victims or groups, be sure that the number of groups and victims per group is coherent. The total number of victims must be a multiple of number of victims per group and there must be victims enough to create the required number of groups, otherwise the program will stop showing an error message.
